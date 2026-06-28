@@ -156,4 +156,7 @@ header nav .navbar-collapse ul{
 .faq .accordion-flush{
   width: 100%;
 }
+  section {
+  padding-inline: 30px !important;
+}
 }
