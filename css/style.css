@@ -1077,5 +1077,7 @@ footer {
   font-size: 14px;
   border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
-
 /* ------------end contact------------ */
+section{
+  padding: 20px 30px 20px !important;
+}
