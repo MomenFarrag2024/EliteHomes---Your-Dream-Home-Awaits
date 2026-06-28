@@ -1,12 +1,4 @@
 @media screen and (max-width: 991px) {
-  h1{
-    font-size: 37px !important;
-    margin-top: 40px !important;
-  }
-  .home .container > p{
-    font-size: 17px !important;
-  }
-  
 header nav .navbar-collapse ul li a::after,
 header nav .accordion-item > button::after,
 header nav .navbar-collapse ul li a:hover:after,
@@ -114,6 +106,15 @@ header nav .navbar-collapse ul{
   .services{
     padding-inline: 20px;
   }
+  h1{
+    font-size: 37px !important;
+    margin-top: 40px !important;
+  }
+  .home .container > p{
+    font-size: 17px !important;
+  }
+section{
+padding-inline: 30px !important;}
 }
 @media screen and (min-width: 992px) {
 .Miami:hover {
@@ -155,8 +156,5 @@ header nav .navbar-collapse ul{
 @media screen and (max-width: 768px){
 .faq .accordion-flush{
   width: 100%;
-}
-  section {
-  padding-inline: 30px !important;
 }
 }
