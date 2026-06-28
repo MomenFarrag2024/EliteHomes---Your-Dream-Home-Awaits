@@ -1,3 +1,47 @@
+@media screen and (min-width: 992px) {
+.Miami:hover {
+    background:linear-gradient(to right ,#4e179abb, #4e179abb) , url(../images/miami.jpeg) ;
+  background-size: cover;
+  background-position: center;
+}
+.new-york:hover{
+    background:linear-gradient(to right ,#4e179abb, #4e179abb) , url(../images/new-york.jpeg) ;
+      background-size: cover;
+  background-position: center;
+}
+.los:hover{
+    background:linear-gradient(to right ,#4e179abb, #4e179abb) , url(../images/los-angeles.jpeg) ;
+      background-size: cover;
+  background-position: center;
+}
+.accordion-body{
+  box-shadow: 0 20px 25px -5px #4a556535;
+}
+
+
+
+
+
+
+
+}
+@media screen and (max-width: 1199px){
+.design1,
+.design2{
+  display: none;
+}
+.contact::before{
+  content: "";
+  display: none;
+}
+.contact::after{
+  content: "";
+  display: none;
+}
+.contact .container {
+  padding: 0 !important;
+}
+}
 @media screen and (max-width: 991px) {
 header nav .navbar-collapse ul li a::after,
 header nav .accordion-item > button::after,
@@ -114,47 +158,79 @@ header nav .navbar-collapse ul{
     font-size: 17px !important;
   }
 section{
-padding-inline: 30px !important;}
+padding-inline: 30px !important;
 }
-@media screen and (min-width: 992px) {
-.Miami:hover {
-    background:linear-gradient(to right ,#4e179abb, #4e179abb) , url(../images/miami.jpeg) ;
-  background-size: cover;
-  background-position: center;
+.luxury{
+  background: #fff !important;
+  margin-right: 20px;
 }
-.new-york:hover{
-    background:linear-gradient(to right ,#4e179abb, #4e179abb) , url(../images/new-york.jpeg) ;
-      background-size: cover;
-  background-position: center;
+.luxury:hover{
+  background-color: #f5f3ff !important;
 }
-.los:hover{
-    background:linear-gradient(to right ,#4e179abb, #4e179abb) , url(../images/los-angeles.jpeg) ;
-      background-size: cover;
-  background-position: center;
+
+
+
 }
-.accordion-body{
-  box-shadow: 0 20px 25px -5px #4a556535;
-}
-}
-@media screen and (max-width: 1199px){
-.design1,
-.design2{
-  display: none;
-}
-.contact::before{
-  content: "";
-  display: none;
-}
-.contact::after{
-  content: "";
-  display: none;
-}
-.contact .container {
-  padding: 0 !important;
-}
-}
+
 @media screen and (max-width: 768px){
 .faq .accordion-flush{
   width: 100%;
+}
+
+
+
+
+.luxury{
+padding: 0 10px!important;
+justify-content: center;
+align-items: center;
+gap: 0px !important;
+margin-right: auto;
+margin-bottom: 0 !important;
+}
+
+.luxury img{
+width: 48px !important;
+height: 48px !important;
+margin-top: 10px;
+}
+.luxury p{
+  font-size: 12px !important;
+}
+.luxury span{
+  font-size: 12px !important;
+}
+.accordion-body .row {
+  padding-inline: 0 !important;
+}
+.popular > div{
+  margin-bottom: 0 !important;
+}
+.popular span{
+  font-size: 12px !important;
+}
+.popular p{
+  font-size: 16px !important;
+}
+.top-resources p{
+  font-size: 14px !important;
+}
+.top-resources span{
+  font-size: 14px !important;
+  width: 32px !important;
+  height: 32px !important;
+}
+.Resources > p{
+  font-size: 12px !important;
+}
+.Property div {
+  display: flex;
+  flex-flow: row;
+  flex-flow: wrap;
+}
+.Property a{
+font-size: 14px !important;
+width: 40% !important;
+margin-left: 10px;
 }
 }
